@@ -1,0 +1,29 @@
+// render question (tracking current question)
+// disable answered qeustions
+// save answer to object
+// render next question depending on the last question
+// display all qestions and answers (disabled as preview mode)
+
+
+answers = {
+        bm: {
+            options: 'B2C' | 'B2B' | 'both',
+            position: 'section1'
+        },
+        allAgeBrackets: {
+            options: 'yes' | 'no',
+            position: 'section1'
+        },
+        allIndustries: 'yes' | 'no',
+    }, 
+    section2: {
+        haveInvestment: 'yes' | 'no',
+        quantity: 'input'
+    }
+}
+
+currentAnswer: key of answers
+currentSection: position of currentAnswer
+
+
+
