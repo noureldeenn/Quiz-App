@@ -27,7 +27,7 @@ function Question({ question, isActive }) {
         />
       ))}
       {question.type === "INPUT" ? (
-        <input type="number" onChange={handleChange} />
+        <input type="number" onChange={handleChange} min="0" />
       ) : null}
       {renderError()}
       {isActive ? (
